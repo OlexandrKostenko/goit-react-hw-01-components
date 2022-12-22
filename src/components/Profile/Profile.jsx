@@ -1,6 +1,5 @@
 import PropTypes from 'prop-types';
 import { Box } from 'components/Box';
-import { theme } from 'theme';
 import { Description, UserAvatar, UserLocation, UserName, UserTag, Stats, ItemStats, LabelSpan, QuantitySpan } from './Profile.styled';
 
 export function Profile ({ username, tag, location, avatar, stats}) {
